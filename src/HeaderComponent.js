@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const HeaderComponent = () => (
+export const HeaderComponent = ({logo}) => (
 
     <>
         <div className="row">
             <div>
-                <img src="./logo.png" />
+                <img src={logo} />
             </div>
             <div className="col-md-12">
                 <ul className="nav justify-content-end">
